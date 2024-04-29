@@ -48,7 +48,7 @@ header {
     flex: 1;
 }
 .header-wrapper .logo img {
-    width: 25%;
+    width: 150px;
 }
 header nav {
     display: flex;
@@ -126,9 +126,6 @@ header nav ul li a {
         cursor: pointer;
         padding-right: 40px;
     }
-    .header-wrapper .logo img {
-        width: 20%;
-    }
 }
 
 /* HEADER ANIMATION */
@@ -150,7 +147,7 @@ header nav ul li a {
 }
 .banner-wrapper {
     display: flex;
-    margin-top: 17%;
+    margin-top: 10%;
 }
 .banner-wrapper * {
     margin: 0;
@@ -247,14 +244,24 @@ header nav ul li a {
     /*justify-content: center;*/
     /*align-items: center;*/
     justify-content: start;
-    align-items: end;
+    align-items: flex-end;
+    position: relative;
 }
 .services-right ul {
     list-style-type: none;
     margin: 0;
+    right: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 20%;
 }
 .services-right ul li {
     margin-top: 20px;
+    position: relative;
+}
+.services-right ul li a {
+    cursor: pointer;
 }
 .service-grow::after {
     content: '';
@@ -265,6 +272,7 @@ header nav ul li a {
     height: 2px; /* Height of the underline */
     background-color: rgb(0, 0, 0); /* Color of the underline */
     transition: width 0.4s ease; /* Transition effect for the width */
+    margin-top: 40px;
 }
 .service-grow:hover::after {
     width: 100%; /* Set the width to 100% on hover */
@@ -682,7 +690,7 @@ footer {
     font-size: 14px;
 }
 .footer-bottom-logo {
-    width: 15%;
+    width: 150px;
 }
 @media only screen and (max-width: 768px) {
     /* Styles for mobile view */
@@ -704,8 +712,5 @@ footer {
     }
     .footer-right {
         margin-left: 0px;
-    }
-    .footer-bottom-logo {
-        width: 25%;
     }
 }

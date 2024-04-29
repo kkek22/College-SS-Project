@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KEK Agency</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon-red-t.png">
+    <link rel="icon" type="image/x-icon" href="img/favicon/SS-Project-favicon-dred-t-cropped.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
     <header>
         <div class="header-wrapper">
             <div class="logo">
-                <img src="img/KEKAgency2-t.png" alt="Your Logo">
+                <a href="#"><img src="img\logo\SS-Project-Logo-3-t.png" alt="Your Logo"></a>
             </div>
             <nav>
                 <ul class="menu">
@@ -64,11 +64,11 @@
                     </div>
                     <div class="services-right">
                         <ul>
-                            <li class="service-grow"><span>01</span><a href="">Project planning</a></li>
-                            <li class="service-grow"><span>02</span><a href="">Engineering</a></li>
-                            <li class="service-grow"><span>03</span><a href="">Design</a></li>
-                            <li class="service-grow"><span>04</span><a href="">Data & AI</a></li>
-                            <li class="service-grow"><span>05</span><a href="">Smart chatbots</a></li>
+                            <li class="service-grow"><span>01</span><a onclick="event.preventDefault(); href="">Project planning</a></li>
+                            <li class="service-grow"><span>02</span><a onclick="event.preventDefault(); href="">Engineering</a></li>
+                            <li class="service-grow"><span>03</span><a onclick="event.preventDefault(); href="">Design</a></li>
+                            <li class="service-grow"><span>04</span><a onclick="event.preventDefault(); href="" >Data & AI</a></li>
+                            <li class="service-grow"><span>05</span><a onclick="event.preventDefault(); href="">Smart chatbots</a></li>
                         </ul>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
 
             <div id="contact" class="form-container">
                 <div class="form-wrapper">
-                    <form id="contact-form" action="php/process_form2.php" method="POST">
+                    <form id="contact-form" action="process_form2.php" method="POST">
                         <div class="form1">
                             <div class="form1-heading">
                                 <h1>You</h1>
@@ -314,7 +314,7 @@
             </div>
             <div class="footer-line"></div>
             <div class="footer-bottom">
-                <img src="img/KEKAgency2-t.png" alt="Company Logo" class="footer-bottom-logo">
+                <a href="#"><img src="img\logo\SS-Project-Logo-3-t.png" alt="Company Logo" class="footer-bottom-logo"></a>
                 <p class="footer-bottom-text">Copyrights © 2024  KEK Agency d.o.o.</p>
                 <p class="footer-bottom-text">Let's make something big.<br><span style="float:right; color:red;">Together.</span></p>
             </div>

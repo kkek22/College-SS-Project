@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json()) // Parse JSON response
         .then(data => {
             // Display success or error message
-            const messageContainer = document.getElementById("message-container");
+            const messageContainer = document.getElementById("form-response");
             if (data.success) {
                 messageContainer.innerHTML = "<p>Form submitted successfully. Thank you!</p>";
             } else {
